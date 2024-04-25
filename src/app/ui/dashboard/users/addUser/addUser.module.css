@@ -1,0 +1,74 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 8px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 1px solid #2e374a;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.form input,
+.form select {
+  width: 45%;
+}
+
+.form textarea {
+  width: 100%;
+}
+
+.form button {
+  width: 100%;
+  padding: 15px;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* modalStyles.module.css */
+
+.modalContent {
+  /* Your styles for the modal content */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modalOverlay {
+  /* Your styles for the modal overlay */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.closeButton {
+  /* Your styles for the close button */
+  /* background-color: #ccc;
+  color: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; */
+  width: 100%;
+  padding: 15px;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
